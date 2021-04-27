@@ -1,0 +1,29 @@
+#images { 
+    display: none;
+    @media screen and (min-width: 720px) { 
+        display: inline-block;
+        width: 683px;
+        height: 265px;
+        position: relative;
+        top: -1310px;
+    }
+}
+
+.unna { 
+    position: relative;
+    left: 684px;
+    top: -458px;
+}
+
+.why { 
+    position: relative;
+    top: -461px;
+}
+
+.big { 
+    position: relative;
+    left: 684px;
+    top: -780px;
+    width: 680px;
+    height: 316px;
+}

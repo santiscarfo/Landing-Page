@@ -22,6 +22,12 @@ footer {
     position: relative;
     left: 110px;
     display: inline-block;
+    @media screen and (min-width: 720px) { 
+        top: -1660px;
+        display: flex;
+        justify-content: center;
+        left: -55px;
+    }
 }
 
 .final { 
@@ -36,13 +42,17 @@ footer {
     position: relative;
     left: 100px;
     display: inline-block;
+    @media screen and (min-width: 720px) { 
+        top: -1660px;
+        left: 535px;
+    }
 }
 
 .footie { 
     border-radius: nullpx;
     border: 24px solid #2FDF84;
     position: relative;
-    top: -400px;
+    top: -1660px;
     left: 0px;
 }
 

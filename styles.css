@@ -72,7 +72,7 @@ header p {
   display: inline-block;
   max-width: 300px;
   position: relative;
-  left: 45px;
+  left: 65px;
   top: -240px;
   font-size: 48px;
   font-family: Roboto;
@@ -223,7 +223,7 @@ header p {
   position: relative;
   top: -174px;
   border-radius: 24px;
-  left: 100px;
+  left: 130px;
 }
 
 @media screen and (min-width: 720px) {
@@ -240,8 +240,8 @@ header p {
 .conteiner-photos {
   width: 120px;
   position: relative;
-  top: -145px;
-  left: 30px;
+  top: -125px;
+  left: 50px;
 }
 
 @media screen and (min-width: 720px) {
@@ -254,8 +254,8 @@ header p {
 .conteiner-photos2 {
   width: 80px;
   position: relative;
-  top: -225px;
-  left: 220px;
+  top: -205px;
+  left: 260px;
 }
 
 @media screen and (min-width: 720px) {
@@ -268,8 +268,8 @@ header p {
 .conteiner-photos3 {
   width: 60px;
   position: relative;
-  top: -205px;
-  left: 60px;
+  top: -165px;
+  left: 75px;
 }
 
 @media screen and (min-width: 720px) {
@@ -282,8 +282,8 @@ header p {
 .conteiner-photos4 {
   width: 80px;
   position: relative;
-  top: -305px;
-  left: 220px;
+  top: -270px;
+  left: 258px;
 }
 
 @media screen and (min-width: 720px) {
@@ -325,7 +325,7 @@ header p {
   color: #f9f9f9;
   max-width: 280px;
   position: relative;
-  left: 35px;
+  left: 65px;
   top: -900px;
 }
 
@@ -357,7 +357,7 @@ header p {
   max-width: 320px;
   position: relative;
   top: -875px;
-  left: 35px;
+  left: 65px;
   color: #f9f9f9;
 }
 
@@ -382,7 +382,7 @@ header p {
   text-align: center;
   position: relative;
   top: -800px;
-  left: -15px;
+  left: -5px;
   border: 6px black;
   border-radius: 2px black;
 }
@@ -401,7 +401,7 @@ header p {
   position: relative;
   top: -724px;
   border-radius: 24px;
-  left: 100px;
+  left: 125px;
 }
 
 @media screen and (min-width: 720px) {
@@ -458,7 +458,7 @@ header p {
   top: -650px;
   max-width: 267px;
   text-align: center;
-  left: 40px;
+  left: 70px;
 }
 
 #section3 .icon {
@@ -477,13 +477,13 @@ header p {
   top: 4.33x;
   border-radius: 0px;
   position: relative;
-  left: 90px;
+  left: 120px;
 }
 
 #section3 h3 {
   position: relative;
   text-align: center;
-  left: -19px;
+  left: -10px;
   padding: 10px;
 }
 
@@ -491,7 +491,7 @@ header p {
   max-width: 187px;
   position: relative;
   text-align: center;
-  left: 36px;
+  left: 66px;
 }
 
 article {

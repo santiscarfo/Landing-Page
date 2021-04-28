@@ -19,6 +19,9 @@ footer {
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(101, 101, 101, 1);
+    position: relative;
+    left: 110px;
+    display: inline-block;
 }
 
 .final { 
@@ -30,7 +33,9 @@ footer {
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(171, 171, 171, 1);
-    ;
+    position: relative;
+    left: 100px;
+    display: inline-block;
 }
 
 .footie { 
@@ -40,6 +45,5 @@ footer {
     top: -400px;
     left: 0px;
 }
-
 
 

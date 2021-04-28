@@ -520,6 +520,9 @@ footer p {
   letter-spacing: -0.02em;
   text-align: center;
   color: #656565;
+  position: relative;
+  left: 110px;
+  display: inline-block;
 }
 
 .final {
@@ -531,6 +534,9 @@ footer p {
   letter-spacing: -0.02em;
   text-align: center;
   color: #ababab;
+  position: relative;
+  left: 100px;
+  display: inline-block;
 }
 
 .footie {

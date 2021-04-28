@@ -52,8 +52,10 @@ footer {
     border-radius: nullpx;
     border: 24px solid #2FDF84;
     position: relative;
-    top: -1660px;
+    top: -400px;
     left: 0px;
+    @media screen and (min-width: 720px) { 
+        top: -1660px;
+    }
 }
-
 

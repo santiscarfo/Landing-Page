@@ -6,9 +6,6 @@
     max-height: 100%;
 }
 
-.main { 
-    max-height: 0px;
-}
 
 #section3 { 
     max-height: 0px;
@@ -16,7 +13,7 @@
 
 .mascara-rombo { 
     clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-    width: 425px;
+    width: 455px;
     height: 360px;
     background: rgb(175,0,246);
     background: linear-gradient(90deg, rgba(175,0,246,1) 0%, rgba(255,117,0,0.6825105042016807) 35%, rgba(241,13,127,1) 100%);
@@ -61,7 +58,7 @@ header {
     display: inline-block;
     max-width: 300px;
     position: relative;
-    left: 65px;
+    left: 45px;
     top: -240px;
     font-size: 48px;
     font-family: Roboto;

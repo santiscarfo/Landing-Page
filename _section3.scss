@@ -1,4 +1,5 @@
 #section3 { 
+    display: inline-block;
     @media screen and (min-width: 720px) { 
         display: none;
     }
@@ -7,17 +8,17 @@
 #section3 { 
     h2 { 
         position: relative;
-        top: -650px;
+        top: -450px;
         max-width: 267px;
         text-align: center;
-        left: 70px;
+        left: 50px;
     }
 }
 
 #section3 { 
     .icon { 
        position: relative;
-       top: -650px;
+       top: -450px;
        align-items: center;
        padding: 40px;
     }
@@ -26,18 +27,16 @@
 .fol { 
     height: 71.32px;
     width: 79.30px;
-    left: 0.34px;
-    top: 4.33x;
     border-radius: 0px;
     position: relative;
-    left: 120px;
+    left: 105px;
 }
 
 #section3 { 
     h3 { 
         position: relative;
         text-align: center;
-        left: -10px;
+        left: 50px;
         padding: 10px;
     }
 }
@@ -47,7 +46,7 @@
         max-width: 187px;
         position: relative;
         text-align: center;
-        left: 66px;
+        left: 50px;
     }
 }
 

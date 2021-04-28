@@ -7,10 +7,6 @@
   max-height: 100%;
 }
 
-.main {
-  max-height: 0px;
-}
-
 #section3 {
   max-height: 0px;
 }
@@ -18,7 +14,7 @@
 .mascara-rombo {
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-  width: 425px;
+  width: 455px;
   height: 360px;
   background: #af00f6;
   background: -webkit-gradient(linear, left top, right top, from(#af00f6), color-stop(35%, rgba(255, 117, 0, 0.682511)), to(#f10d7f));
@@ -72,7 +68,7 @@ header p {
   display: inline-block;
   max-width: 300px;
   position: relative;
-  left: 65px;
+  left: 45px;
   top: -240px;
   font-size: 48px;
   font-family: Roboto;
@@ -221,9 +217,9 @@ header p {
   height: 330px;
   width: 155px;
   position: relative;
-  top: -174px;
+  top: -194px;
   border-radius: 24px;
-  left: 130px;
+  left: 110px;
 }
 
 @media screen and (min-width: 720px) {
@@ -240,8 +236,9 @@ header p {
 .conteiner-photos {
   width: 120px;
   position: relative;
-  top: -125px;
+  top: -195px;
   left: 50px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -254,8 +251,9 @@ header p {
 .conteiner-photos2 {
   width: 80px;
   position: relative;
-  top: -205px;
-  left: 260px;
+  top: -195px;
+  left: 100px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -268,8 +266,9 @@ header p {
 .conteiner-photos3 {
   width: 60px;
   position: relative;
-  top: -165px;
-  left: 75px;
+  top: -55px;
+  left: -125px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -282,8 +281,9 @@ header p {
 .conteiner-photos4 {
   width: 80px;
   position: relative;
-  top: -270px;
-  left: 258px;
+  top: -90px;
+  left: -50px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -298,9 +298,9 @@ header p {
           clip-path: polygon(0 11%, 100% 0, 100% 87%, 0% 100%);
   background: #0a2540;
   width: 425px;
-  height: 760px;
+  height: 650px;
   position: relative;
-  top: -250px;
+  top: -50px;
 }
 
 @media screen and (min-width: 720px) {
@@ -314,7 +314,6 @@ header p {
 }
 
 .thousands {
-  top: 600px;
   font-family: Roboto;
   font-size: 30px;
   font-style: normal;
@@ -325,8 +324,9 @@ header p {
   color: #f9f9f9;
   max-width: 280px;
   position: relative;
-  left: 65px;
-  top: -900px;
+  left: 35px;
+  top: -600px;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -356,9 +356,10 @@ header p {
   text-align: left;
   max-width: 320px;
   position: relative;
-  top: -875px;
-  left: 65px;
+  top: -575px;
+  left: 30px;
   color: #f9f9f9;
+  display: inline-block;
 }
 
 @media screen and (min-width: 720px) {
@@ -381,8 +382,8 @@ header p {
   letter-spacing: -0.02em;
   text-align: center;
   position: relative;
-  top: -800px;
-  left: -5px;
+  top: -520px;
+  left: -10px;
   border: 6px black;
   border-radius: 2px black;
 }
@@ -399,9 +400,9 @@ header p {
   height: 352px;
   width: 155px;
   position: relative;
-  top: -724px;
+  top: -480px;
   border-radius: 24px;
-  left: 125px;
+  left: 105px;
 }
 
 @media screen and (min-width: 720px) {
@@ -447,6 +448,10 @@ header p {
   height: 316px;
 }
 
+#section3 {
+  display: inline-block;
+}
+
 @media screen and (min-width: 720px) {
   #section3 {
     display: none;
@@ -455,15 +460,15 @@ header p {
 
 #section3 h2 {
   position: relative;
-  top: -650px;
+  top: -450px;
   max-width: 267px;
   text-align: center;
-  left: 70px;
+  left: 50px;
 }
 
 #section3 .icon {
   position: relative;
-  top: -650px;
+  top: -450px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -473,17 +478,15 @@ header p {
 .fol {
   height: 71.32px;
   width: 79.30px;
-  left: 0.34px;
-  top: 4.33x;
   border-radius: 0px;
   position: relative;
-  left: 120px;
+  left: 105px;
 }
 
 #section3 h3 {
   position: relative;
   text-align: center;
-  left: -10px;
+  left: 50px;
   padding: 10px;
 }
 
@@ -491,10 +494,54 @@ header p {
   max-width: 187px;
   position: relative;
   text-align: center;
-  left: 66px;
+  left: 50px;
 }
 
 article {
   max-height: 100px;
+}
+
+footer p {
+  color: red;
+  font-size: 18px;
+  position: relative;
+  top: -400px;
+  left: -10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.footi {
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #656565;
+}
+
+.final {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #ababab;
+}
+
+.footie {
+  border-radius: nullpx;
+  border: 24px solid #2FDF84;
+  position: relative;
+  top: -400px;
+  left: 0px;
+}
+
+footer {
+  max-height: 0px;
 }
 /*# sourceMappingURL=styles.css.map */
